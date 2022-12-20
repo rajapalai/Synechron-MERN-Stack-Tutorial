@@ -1,0 +1,6 @@
+1, george.bluth@reqres.in
+2, janet.weaver@reqres.in
+3, emma.wong@reqres.in
+4, eve.holt@reqres.in
+5, charles.morris@reqres.in
+6, tracey.ramos@reqres.in

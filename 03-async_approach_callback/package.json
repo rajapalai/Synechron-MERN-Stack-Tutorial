@@ -1,0 +1,16 @@
+{
+  "name": "03-async_approach_callback",
+  "version": "1.0.0",
+  "main": "async-callback.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raja palai",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "request": "^2.88.2"
+  }
+}
