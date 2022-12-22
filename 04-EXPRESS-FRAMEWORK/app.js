@@ -22,6 +22,7 @@ app.post("/employee", async (req, res) => {
 app.get("/employee", async (req, res) => {
     try {
         const getAllEmployee = await Employee.find();
+        console.log(getAllEmployee)
         res.send(getAllEmployee)
     } catch (error) {
         res.send(error)
