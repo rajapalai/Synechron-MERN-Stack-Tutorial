@@ -1,14 +1,15 @@
 const mongoose = require('mongoose');
 
 mongoose.set('strictQuery', false)
+const URI = 'mongodb+srv://rajapalai:Rajapalai1992@cluster0.mb9qvt9.mongodb.net/Employee-Db?retryWrites=true&w=majority';
 
 //CONNECT WITH DATABASE USING ASYNC-AWAIT
 async function connectToMongodb() {
-    mongoose.connect('mongodb://127.0.0.1:27017/employee-db')
-        .then(() => console.log('Connected with Database using Async-await.'))
+    mongoose.connect(URI, {}).then(() => console.log('Connected with Database using Async-await.'))
         .catch((error) => console.log(`Error : ${error.message}`))
 }
 connectToMongodb();
+
 
 //connect with mongo using callback
 // mongoose.connect('mongodb://127.0.0.1:27017/trainingdb', function (error) {

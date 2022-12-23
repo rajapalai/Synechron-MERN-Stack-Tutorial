@@ -4,8 +4,8 @@
   "description": "",
   "main": "user-model.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "try": "nodemon index.js",
+    "start": "nodemon app.js",
+    "try": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
